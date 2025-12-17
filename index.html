@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maull Store Jasa Otp tercepat tanpa pending</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #7c3aed;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --radius: 8px;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #f1f5f9;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header & Navigation */
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .logo i {
+            color: var(--secondary);
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border-radius: var(--radius);
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+        
+        .btn-outline:hover {
+            background-color: rgba(37, 99, 235, 0.1);
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+        
+        .hero-text {
+            flex: 1;
+        }
+        
+        .hero-text h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+        
+        .hero-text p {
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-bottom: 30px;
+        }
+        
+        .hero-image {
+            flex: 1;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Features */
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .section-title p {
+            color: var(--gray);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            background-color: rgba(37, 99, 235, 0.1);
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .feature-icon i {
+            font-size: 1.5rem;
+            color: var(--primary);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        
+        /* Events */
+        .events {
+            padding: 80px 0;
+            background-color: #f8fafc;
+        }
+        
+        .events-filter {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            padding: 8px 20px;
+            background-color: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .filter-btn.active {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .event-card {
+            background-color: white;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .event-image {
+            height: 200px;
+            width: 100%;
+            background-color: #cbd5e1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gray);
+        }
+        
+        .event-content {
+            padding: 25px;
+        }
+        
+        .event-category {
+            display: inline-block;
+            background-color: rgba(124, 58, 237, 0.1);
+            color: var(--secondary);
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .event-date {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: var(--gray);
+            margin-bottom: 10px;
+        }
+        
+        .event-price {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 15px 0;
+        }
+        
+        /* Payment */
+        .payment-section {
+            padding: 80px 0;
+            background-color: white;
+        }
+        
+        .payment-container {
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+        
+        .payment-form {
+            flex: 1;
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .payment-methods {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .payment-method {
+            flex: 1;
+            border: 2px solid #e2e8f0;
+            border-radius: var(--radius);
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .payment-method.active {
+            border-color: var(--primary);
+            background-color: rgba(37, 99, 235, 0.05);
+        }
+        
+        .payment-method i {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #cbd5e1;
+            border-radius: var(--radius);
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+        
+        .row .form-group {
+            flex: 1;
+        }
+        
+        .payment-summary {
+            flex: 1;
+            background-color: var(--light);
+            padding: 30px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .summary-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .summary-total {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #cbd5e1;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background-color: var(--primary);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-content {
+                flex-direction: column;
+            }
+            
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+            
+            .payment-container {
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .modal-content {
+            background-color: white;
+            padding: 40px;
+            border-radius: var(--radius);
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+        }
+        
+        .close-modal {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: var(--gray);
+        }
+        
+        .modal-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .success-message {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .success-message i {
+            font-size: 4rem;
+            color: var(--success);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>BizEvent</span>
+                </div>
+                
+                <div class="nav-links">
+                    <a href="#home">Beranda</a>
+                    <a href="#features">Fitur</a>
+                    <a href="#events">Event</a>
+                    <a href="#payment">Pembayaran</a>
+                    <a href="#about">Tentang Kami</a>
+                </div>
+                
+                <div class="nav-buttons">
+                    <button class="btn btn-outline" id="loginBtn">
+                        <i class="fas fa-sign-in-alt"></i> Masuk
+                    </button>
+                    <button class="btn btn-primary" id="registerBtn">
+                        <i class="fas fa-user-plus"></i> Daftar
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Platform Bisnis & Event Terintegrasi</h1>
+                    <p>Kelola bisnis Anda, promosikan event, dan terima pembayaran dalam satu platform yang mudah digunakan. Dukungan penuh untuk berbagai jenis bisnis dan event.</p>
+                    <div style="display: flex; gap: 15px;">
+                        <button class="btn btn-primary" id="exploreBtn">
+                            <i class="fas fa-rocket"></i> Jelajahi Sekarang
+                        </button>
+                        <button class="btn btn-outline" id="demoBtn">
+                            <i class="fas fa-play-circle"></i> Lihat Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div style="background: linear-gradient(135deg, var(--primary), var(--secondary)); height: 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem;">
+                        <div style="text-align: center; padding: 20px;">
+                            <i class="fas fa-chart-line" style="font-size: 3rem; margin-bottom: 20px;"></i>
+                            <h3>Dashboard Bisnis & Event</h3>
+                            <p>Semua yang Anda butuhkan dalam satu tempat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fitur Lengkap untuk Bisnis & Event</h2>
+                <p>Platform kami menyediakan segala yang Anda butuhkan untuk mengelola bisnis dan event secara efektif</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Manajemen Event</h3>
+                    <p>Buat, promosikan, dan kelola event dengan mudah. Dukungan untuk berbagai jenis event baik online maupun offline.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Pembayaran Terintegrasi</h3>
+                    <p>Terima pembayaran melalui berbagai metode: kartu kredit, transfer bank, e-wallet, dan pembayaran digital lainnya.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analisis Bisnis</h3>
+                    <p>Dapatkan insight mendalam tentang performa bisnis dan event Anda dengan dashboard analitik yang komprehensif.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Manajemen Peserta</h3>
+                    <p>Kelola pendaftaran peserta, kirim konfirmasi otomatis, dan pantau kehadiran dengan sistem yang terintegrasi.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Akses Mobile</h3>
+                    <p>Akses platform kapan saja, di mana saja melalui aplikasi mobile yang kompatibel dengan iOS dan Android.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Dukungan 24/7</h3>
+                    <p>Tim dukungan kami siap membantu Anda kapan pun dibutuhkan melalui chat, telepon, atau email.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-title">
+                <h2>Event Terbaru</h2>
+                <p>Temukan event menarik yang sesuai dengan minat dan kebutuhan bisnis Anda</p>
+            </div>
+            
+            <div class="events-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="business">Bisnis</button>
+                <button class="filter-btn" data-filter="tech">Teknologi</button>
+                <button class="filter-btn" data-filter="education">Edukasi</button>
+                <button class="filter-btn" data-filter="networking">Networking</button>
+            </div>
+            
+            <div class="events-grid">
+                <!-- Event cards will be generated by JavaScript -->
+            </div>
+            
+            <div style="text-align: center;">
+                <button class="btn btn-outline" id="loadMoreEvents">
+                    <i class="fas fa-plus"></i> Muat Lebih Banyak Event
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment -->
+    <section class="payment-section" id="payment">
+        <div class="container">
+            <div class="section-title">
+                <h2>Pembayaran Aman & Mudah</h2>
+                <p>Lakukan pembayaran untuk event atau layanan bisnis dengan aman dan nyaman</p>
+            </div>
+            
+            <div class="payment-container">
+                <div class="payment-form">
+                    <h3 style="margin-bottom: 30px;">Detail Pembayaran</h3>
+                    
+                    <div class="payment-methods">
+                        <div class="payment-method active" data-method="credit-card">
+                            <i class="far fa-credit-card"></i>
+                            <p>Kartu Kredit</p>
+                        </div>
+                        <div class="payment-method" data-method="bank-transfer">
+                            <i class="fas fa-university"></i>
+                            <p>Transfer Bank</p>
+                        </div>
+                        <div class="payment-method" data-method="e-wallet">
+                            <i class="fas fa-wallet"></i>
+                            <p>E-Wallet</p>
+                        </div>
+                    </div>
+                    
+                    <form id="paymentForm">
+                        <div class="form-group">
+                            <label for="name">Nama di Kartu</label>
+                            <input type="text" id="name" class="form-control" placeholder="Nama lengkap" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="cardNumber">Nomor Kartu</label>
+                            <input type="text" id="cardNumber" class="form-control" placeholder="1234 5678 9012 3456" required>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="form-group">
+                                <label for="expiry">Tanggal Kadaluarsa</label>
+                                <input type="text" id="expiry" class="form-control" placeholder="MM/YY" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" class="form-control" placeholder="123" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email untuk Notifikasi</label>
+                            <input type="email" id="email" class="form-control" placeholder="nama@email.com" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px; margin-top: 10px;">
+                            <i class="fas fa-lock"></i> Bayar Sekarang
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="payment-summary">
+                    <h3 style="margin-bottom: 30px;">Ringkasan Pembayaran</h3>
+                    
+                    <div class="summary-item">
+                        <span>Konferensi Bisnis Digital 2023</span>
+                        <span>Rp 350.000</span>
+                    </div>
+                    
+                    <div class="summary-item">
+                        <span>Biaya Layanan</span>
+                        <span>Rp 15.000</span>
+                    </div>
+                    
+                    <div class="summary-item">
+                        <span>Pajak (10%)</span>
+                        <span>Rp 35.000</span>
+                    </div>
+                    
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span>Rp 400.000</span>
+                    </div>
+                    
+                    <div style="margin-top: 30px; padding: 20px; background-color: rgba(16, 185, 129, 0.1); border-radius: var(--radius);">
+                        <h4 style="margin-bottom: 10px; color: var(--success);">
+                            <i class="fas fa-shield-alt"></i> Pembayaran Aman
+                        </h4>
+                        <p style="font-size: 0.9rem; color: var(--gray);">
+                            Data pembayaran Anda dienkripsi dengan teknologi keamanan tingkat tinggi. Kami tidak menyimpan informasi kartu kredit Anda.
+                        </p>
+                    </div>
+                    
+                    <div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+                        <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa" style="height: 30px;">
+                        <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" style="height: 30px;">
+                        <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="PayPal" style="height: 30px;">
+                        <img src="https://img.icons8.com/color/48/000000/bank-card-back-side.png" alt="Bank Transfer" style="height: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="about">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>BizEvent Solutions</h3>
+                    <p>Platform terintegrasi untuk mengelola bisnis dan event dengan sistem pembayaran yang aman dan mudah.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Layanan</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Manajemen Event</a></li>
+                        <li><a href="#">Sistem Pembayaran</a></li>
+                        <li><a href="#">Analisis Bisnis</a></li>
+                        <li><a href="#">Pemasaran Digital</a></li>
+                        <li><a href="#">Dukungan Teknis</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Perusahaan</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                        <li><a href="#">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Hubungi Kami</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                        <li><i class="fas fa-phone"></i> +62 21 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@bizevent.com</li>
+                        <li><i class="fas fa-clock"></i> Senin - Jumat: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 BizEvent Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeLoginModal">&times;</span>
+            <h3 class="modal-title">Masuk ke Akun Anda</h3>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" class="form-control" placeholder="nama@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" class="form-control" placeholder="Masukkan password" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px; margin-top: 10px;">
+                    <i class="fas fa-sign-in-alt"></i> Masuk
+                </button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <p>Belum punya akun? <a href="#" id="switchToRegister" style="color: var(--primary);">Daftar di sini</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeRegisterModal">&times;</span>
+            <h3 class="modal-title">Daftar Akun Baru</h3>
+            <form id="registerForm">
+                <div class="row">
+                    <div class="form-group">
+                        <label for="firstName">Nama Depan</label>
+                        <input type="text" id="firstName" class="form-control" placeholder="Nama depan" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Nama Belakang</label>
+                        <input type="text" id="lastName" class="form-control" placeholder="Nama belakang" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" class="form-control" placeholder="nama@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" class="form-control" placeholder="Buat password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="confirmPassword">Konfirmasi Password</label>
+                    <input type="password" id="confirmPassword" class="form-control" placeholder="Ulangi password" required>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px; margin-top: 10px;">
+                    <i class="fas fa-user-plus"></i> Daftar
+                </button>
+            </form>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <p>Sudah punya akun? <a href="#" id="switchToLogin" style="color: var(--primary);">Masuk di sini</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeSuccessModal">&times;</span>
+            <div class="success-message">
+                <i class="fas fa-check-circle"></i>
+                <h3 class="modal-title">Pembayaran Berhasil!</h3>
+                <p>Pembayaran Anda telah berhasil diproses. Tiket dan konfirmasi telah dikirim ke email Anda.</p>
+                <p style="margin-top: 20px; font-weight: 600;">ID Transaksi: #TX-2023-78945</p>
+                <button class="btn btn-primary" style="margin-top: 30px;" id="closeSuccessBtn">
+                    <i class="fas fa-check"></i> Oke, Mengerti
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Data Event
+        const eventsData = [
+            {
+                id: 1,
+                title: "Konferensi Bisnis Digital 2023",
+                category: "business",
+                date: "15 Des 2023",
+                price: 350000,
+                description: "Pelajari strategi bisnis digital terkini dari para ahli industri.",
+                imageColor: "#3b82f6"
+            },
+            {
+                id: 2,
+                title: "Workshop AI untuk UMKM",
+                category: "tech",
+                date: "20 Des 2023",
+                price: 150000,
+                description: "Implementasi kecerdasan buatan untuk meningkatkan efisiensi bisnis.",
+                imageColor: "#8b5cf6"
+            },
+            {
+                id: 3,
+                title: "Seminar Kewirausahaan",
+                category: "business",
+                date: "5 Jan 2024",
+                price: 200000,
+                description: "Tips dan strategi memulai bisnis dari nol hingga sukses.",
+                imageColor: "#10b981"
+            },
+            {
+                id: 4,
+                title: "Pelatihan Digital Marketing",
+                category: "education",
+                date: "12 Jan 2024",
+                price: 250000,
+                description: "Kuasi teknik pemasaran digital untuk menjangkau pasar lebih luas.",
+                imageColor: "#f59e0b"
+            },
+            {
+                id: 5,
+                title: "Networking Startup Indonesia",
+                category: "networking",
+                date: "25 Jan 2024",
+                price: 100000,
+                description: "Temukan partner bisnis dan investor potensial di event ini.",
+                imageColor: "#ef4444"
+            },
+            {
+                id: 6,
+                title: "Konferensi Fintech Asia",
+                category: "tech",
+                date: "10 Feb 2024",
+                price: 500000,
+                description: "Eksplorasi inovasi terbaru dalam teknologi finansial.",
+                imageColor: "#06b6d4"
+            }
+        ];
+
+        // DOM Elements
+        const eventsGrid = document.querySelector('.events-grid');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const paymentMethods = document.querySelectorAll('.payment-method');
+        const loginModal = document.getElementById('loginModal');
+        const registerModal = document.getElementById('registerModal');
+        const successModal = document.getElementById('successModal');
+        const loginBtn = document.getElementById('loginBtn');
+        const registerBtn = document.getElementById('registerBtn');
+        const closeLoginModal = document.getElementById('closeLoginModal');
+        const closeRegisterModal = document.getElementById('closeRegisterModal');
+        const closeSuccessModal = document.getElementById('closeSuccessModal');
+        const closeSuccessBtn = document.getElementById('closeSuccessBtn');
+        const switchToRegister = document.getElementById('switchToRegister');
+        const switchToLogin = document.getElementById('switchToLogin');
+        const paymentForm = document.getElementById('paymentForm');
+        const exploreBtn = document.getElementById('exploreBtn');
+        const demoBtn = document.getElementById('demoBtn');
+        const loadMoreEventsBtn = document.getElementById('loadMoreEvents');
+
+        // Initialize events
+        function renderEvents(filter = 'all') {
+            eventsGrid.innerHTML = '';
+            
+            const filteredEvents = filter === 'all' 
+                ? eventsData 
+                : eventsData.filter(event => event.category === filter);
+            
+            filteredEvents.forEach(event => {
+                const eventCard = document.createElement('div');
+                eventCard.className = 'event-card';
+                eventCard.setAttribute('data-category', event.category);
+                
+                eventCard.innerHTML = `
+                    <div class="event-image" style="background-color: ${event.imageColor};">
+                        <i class="fas fa-calendar-alt" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                    <div class="event-content">
+                        <span class="event-category">${getCategoryName(event.category)}</span>
+                        <h3 style="margin-bottom: 10px;">${event.title}</h3>
+                        <div class="event-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <span>${event.date}</span>
+                        </div>
+                        <p style="color: var(--gray); margin-bottom: 15px;">${event.description}</p>
+                        <div class="event-price">Rp ${event.price.toLocaleString('id-ID')}</div>
+                        <button class="btn btn-primary" style="width: 100%;" onclick="registerForEvent(${event.id})">
+                            <i class="fas fa-ticket-alt"></i> Daftar Sekarang
+                        </button>
+                    </div>
+                `;
+                
+                eventsGrid.appendChild(eventCard);
+            });
+        }
+
+        // Get category name in Bahasa Indonesia
+        function getCategoryName(category) {
+            const categories = {
+                'business': 'Bisnis',
+                'tech': 'Teknologi',
+                'education': 'Edukasi',
+                'networking': 'Networking'
+            };
+            return categories[category] || category;
+        }
+
+        // Event filtering
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Filter events
+                const filter = this.getAttribute('data-filter');
+                renderEvents(filter);
+            });
+        });
+
+        // Payment method selection
+        paymentMethods.forEach(method => {
+            method.addEventListener('click', function() {
+                paymentMethods.forEach(m => m.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Modal functions
+        function openModal(modal) {
+            modal.style.display = 'flex';
+        }
+
+        function closeModal(modal) {
+            modal.style.display = 'none';
+        }
+
+        // Event listeners for modals
+        loginBtn.addEventListener('click', () => openModal(loginModal));
+        registerBtn.addEventListener('click', () => openModal(registerModal));
+        
+        closeLoginModal.addEventListener('click', () => closeModal(loginModal));
+        closeRegisterModal.addEventListener('click', () => closeModal(registerModal));
+        closeSuccessModal.addEventListener('click', () => closeModal(successModal));
+        closeSuccessBtn.addEventListener('click', () => closeModal(successModal));
+        
+        switchToRegister.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeModal(loginModal);
+            openModal(registerModal);
+        });
+        
+        switchToLogin.addEventListener('click', (e) => {
+            e.preventDefault();
+            closeModal(registerModal);
+            openModal(loginModal);
+        });
+
+        // Close modal when clicking outside
+        window.addEventListener('click', (e) => {
+            if (e.target === loginModal) closeModal(loginModal);
+            if (e.target === registerModal) closeModal(registerModal);
+            if (e.target === successModal) closeModal(successModal);
+        });
+
+        // Form submissions
+        paymentForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Simple validation
+            const cardNumber = document.getElementById('cardNumber').value;
+            const expiry = document.getElementById('expiry').value;
+            const cvv = document.getElementById('cvv').value;
+            
+            if (cardNumber.replace(/\s/g, '').length !== 16) {
+                alert('Nomor kartu harus 16 digit');
+                return;
+            }
+            
+            if (!/^\d{2}\/\d{2}$/.test(expiry)) {
+                alert('Format tanggal kadaluarsa harus MM/YY');
+                return;
+            }
+            
+            if (cvv.length !== 3) {
+                alert('CVV harus 3 digit');
+                return;
+            }
+            
+            // Simulate payment processing
+            closeModal(loginModal);
+            closeModal(registerModal);
+            openModal(successModal);
+        });
+
+        // Login form submission
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Login berhasil! Mengarahkan ke dashboard...');
+            closeModal(loginModal);
+        });
+
+        // Register form submission
+        document.getElementById('registerForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const password = document.getElementById('registerPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+            
+            if (password !== confirmPassword) {
+                alert('Password dan konfirmasi password tidak cocok');
+                return;
+            }
+            
+            alert('Pendaftaran berhasil! Silakan cek email untuk verifikasi.');
+            closeModal(registerModal);
+        });
+
+        // Other button actions
+        exploreBtn.addEventListener('click', () => {
+            document.getElementById('features').scrollIntoView({ behavior: 'smooth' });
+        });
+
+        demoBtn.addEventListener('click', () => {
+            alert('Demo akan ditampilkan di sini. Fitur ini sedang dalam pengembangan.');
+        });
+
+        loadMoreEventsBtn.addEventListener('click', () => {
+            alert('Memuat lebih banyak event...');
+            // In a real app, this would load more events from an API
+        });
+
+        // Register for event function
+        window.registerForEvent = function(eventId) {
+            openModal(registerModal);
+            // In a real app, this would pre-fill the event registration form
+        };
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderEvents();
+        });
+    </script>
+</body>
+</html>
